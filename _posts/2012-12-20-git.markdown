@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Gitting familiar with git"
+date: 2012-12-20
+comments: true
+categories: [EatN'Geek]
+vimeo: 56041343
+author: Allan Chappell
+author_url: https://twitter.com/general_redneck
+---
+
+# Gitting familiar with [git](http://git-scm.com)
+
+Protip: presentations love [ASCII flow](http://www.asciiflow.com)
+
+In this intro tour to git, Allan familiarizes us with the basics of the fantastic distributed version control system. We learn how to commit, branch, and manage remotes - along with nice descriptions of how the local mechanisms work during staging and branching. It's worth noting many of the fundamentals - namely that git is dealing with hunks and patches (a diff); a notably powerful command here is `git add -p` (see: [John Kary's talk on this](http://johnkary.net/blog/git-add-p-the-most-powerful-git-feature-youre-not-using-yet)). Other notedly useful tool is the "all powerful" rebase: `git rebase -i <sha>` (note the -i for interactive mode); allowing you to pick, rename, "squash" and otherwise manage your commit history to make you version control "read like a book" (remember with rebase you can always `--abort` if it gets scary).
+
+
+### Coffee break:
+
+*  http://zachholman.com/talk/git-github-secrets
+*  http://whatthecommit.com
+*  http://wheningit.tumblr.com
+
